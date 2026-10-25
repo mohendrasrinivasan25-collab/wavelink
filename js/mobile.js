@@ -182,7 +182,7 @@ function closeModal() {
 
 // ---------- STEP 8: Choose a plan ----------
 function choosePlan(plan) {
-  message.textContent = "✔ You selected " + plan.name + " (₹" + plan.price + "/month). This is a demo, so no real order is placed.";
+  message.textContent = "✔ You selected " + plan.name + " (₹" + plan.price + "/month).";
   show(message);
   message.scrollIntoView({ behavior: "smooth", block: "center" });
 }
